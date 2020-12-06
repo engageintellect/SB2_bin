@@ -17,8 +17,11 @@ subprocess.call('xset r rate 275 200', shell=True)
 subprocess.call('/usr/bin/setxkbmap -option "caps:swapescape" &', shell=True)
 
 # RELOAD PYWAL & RE-COMPILE ST
-subprocess.call('wal -R', shell=True)
-subprocess.call('python st_pywal.py', shell=True)
+# subprocess.call('wal -R', shell=True)
+# subprocess.call('./st_pywal.py', shell=True)
+
+os.system('wal -R')
+os.system('/home/r3dux/bin/env/compile_st.sh')
 
 # PROGRAMS
 subprocess.call('clipmenud &', shell=True)
