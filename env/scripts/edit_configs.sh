@@ -15,15 +15,13 @@ zsh_aliases
 zsh_env
 quit")
 
-# DMENU
-choice=$(echo -e "${options[0]}" | dmenu -fn 'Hack Nerd Font -10' -nb "$color0" -nf \
-    "$color15" -sb "$color3" -sf "$color0" -nhb "$color3" -nhf "$color0" -shb "$color3" -shf "$color15" -h 25 -l 12 -g 1 -p 'Edit config > ')
 
-# # ROFI
-# choice=$(echo -e "${options[0]}" | rofi -dmenu -font "Hack Nerd Font 12" -location 1 -width 25 -lines 100 -p "edit config")
-# case "$choice" in 
+# choice=$(echo -e "${options[0]}" | dmenu -fn 'Hack Nerd Font -10' -nb "$color0" -nf \
+#     "$color15" -sb "$color3" -sf "$color0" -nhb "$color3" -nhf "$color0" -shb "$color3" -shf "$color15" -h 25 -l 12 -g 1 -p 'Edit config > ')
 
 
+choice=$(echo -e "${options[0]}" | rofi -dmenu -font "Hack Nerd Font 20" -location 1 -width 15 -lines 100 -p "EDIT CONFIGS")
+case "$choice" in 
     quit)
         echo "Progam terminated." && exit 1
 

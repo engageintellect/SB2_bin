@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-. "${HOME}/.cache/wal/colors.sh"
+# . "${HOME}/.cache/wal/colors.sh"
 
 
 read selection <<< $(ls $1 | fzf)

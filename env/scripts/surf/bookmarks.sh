@@ -4,6 +4,7 @@
 . "${HOME}/.cache/wal/colors.sh"
 
 
+
 declare -a options=("arch_news
 r/unixporn
 r/linux
@@ -18,10 +19,10 @@ python_cheatsheet
 go_cheatsheet
 quit")
 
-choice=$( echo -e "${options[0]}" | dmenu -fn 'Hack Nerd Font -10' -nb "$color0" -nf \
-    "$color15" -sb "$color3" -sf "$color0" -nhb "$color3" -nhf "$color0" -shb "$color3" -shf "$color15" -h 25 -p 'BOOKMARKS: ')
+# choice=$( echo -e "${options[0]}" | dmenu -fn 'Hack Nerd Font -10' -nb "$color0" -nf \
+#     "$color15" -sb "$color3" -sf "$color0" -nhb "$color3" -nhf "$color0" -shb "$color3" -shf "$color15" -h 25 -p 'BOOKMARKS: ')
 
-
+choice=$( echo -e "${options[0]}" | rofi -dmenu -p "BOOKMARKS" -font "Hack Nerd Font 10" -location 2 -width 15 -lines 100)
 case $choice in
 	quit)
 		echo "Program terminated." && exit 1
