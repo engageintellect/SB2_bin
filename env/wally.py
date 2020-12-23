@@ -14,6 +14,8 @@ import subprocess
 
 def setwall():
     pic = subprocess.getoutput('sxiv -b -t -o ~/media/photos/wallpapers')
+    time.sleep(1)
+    os.system('xdotool key shift + equals')
     if pic == '':
         quit()
     else:
