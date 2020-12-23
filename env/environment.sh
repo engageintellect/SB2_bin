@@ -25,13 +25,13 @@ xset r rate 275 200
 wal -R
 
 # COMPILE ST
-/home/r3dux/bin/env/compile_st.sh
+$HOME/bin/env/pywal/compile_st.sh
 
 # PROGRAMS
 clipmenud &
 killall -q xfce4-power-manager
 xfce4-power-manager &
-~/bin/env/dunst_pywal.sh
+~/bin/env/pywal/dunst_pywal.sh
 killall -q nitrogen
 nitrogen --restore &
 killall -q xautolock slock
