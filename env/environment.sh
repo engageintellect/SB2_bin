@@ -44,3 +44,5 @@ picom &
 
 # ADJUST PADDING
 /home/r3dux/bin/env/padding.sh
+
+touchegg &
