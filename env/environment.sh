@@ -15,8 +15,11 @@ sxhkd &
 # SETUP TOUCHPAD
 /home/r3dux/bin/env/touchy.sh
 
-# DPI SCALING, KEY REPEAT, KEYSWAP...
 
+# SET CURSOR (CURSOR NEEDS TO ALSO BE SET IN ~/.Xresources TO BE CORRECTLY SIZED)
+xsetroot -xcf /usr/share/icons/Bibata-Original-Ice/cursors/left_ptr 48
+
+# DPI SCALING, KEY REPEAT, KEYSWAP...
 xrandr --dpi 192
 xset r rate 275 200
 /usr/bin/setxkbmap -option "caps:swapescape" &
