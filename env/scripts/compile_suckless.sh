@@ -12,10 +12,16 @@ surf
 tabbed
 quit")
 
-# choice=$( echo -e "${options[0]}" | dmenu -fn 'Hack Nerd Font -10' -nb "$color0" -nf \
-#     "$color15" -sb "$color3" -sf "$color0" -nhb "$color3" -nhf "$color0" -shb "$color3" -shf "$color15" -h 25 -p 'Compiple: ')
 
-choice=$( echo -e "${options[0]}" | rofi -dmenu -p "COMPILE" -font "Hack Nerd Font 20" -location 1 -width 15 -lines 100)
+
+# # DMENU
+# choice=$( echo -e "${options[0]}" | dmenu -fn 'Hack Nerd Font -10' -nb "$color0" -nf \
+#     "$color15" -sb "$color3" -sf "$color0" -nhb "$color3" -nhf "$color0" -shb "$color3" -shf "$color15" -h 15 -p 'Compiple: ')
+
+# ROFI
+choice=$(echo -e "${options[0]}" | rofi -dmenu -m primary -p "EDIT CONFIG" \
+    -font "Hack Nerd Font 10" -location 1 -width 15 -lines 100)
+
 
 
 case "$choice" in

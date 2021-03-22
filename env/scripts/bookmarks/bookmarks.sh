@@ -3,14 +3,13 @@
 
 # DEFINE SOME VARIABLES FOR PROGRAM
 BOOOKMARK_FILE=~/bin/env/scripts/bookmarks/bookmarks.txt
-BROWSER='chromium'
 
 
 
 bookmarks=$(cat $BOOOKMARK_FILE)
 
 read selection <<< $(for x in $bookmarks; do echo $x; done |  \
-    rofi -dmenu -p "BOOKMARKS" -font "Hack Nerd Font 20" -location 3 -width 15 -lines 100)
+    rofi -dmenu -p "BOOKMARKS" -font "Hack Nerd Font 22" -location 3 -width 25 -lines 100)
 
 
 if [[ $selection == "" ]]; then
