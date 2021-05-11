@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-BROWSER=surf
+BROWSER='surf -N -z 1.5'
 # read selection <<< $(rofi -dmenu -p "SEARCH" -font "Hack Nerd font 10" -location 1 -width 20 -lines 100 -m 1)
 read selection <<< $(rofi -dmenu -p "SEARCH" -font "Hack Nerd font 22" -location 0 -width 25 -lines 10)
 

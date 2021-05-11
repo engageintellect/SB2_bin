@@ -13,7 +13,7 @@ https://www.livecoinwatch.com/
 https://coinstats.app/
 https://robinhood.com/
 https://stocktwits.com/
-https://tradingview.com/
+https://tradingview.com/chart
 https://app.weebull.com/
 https://cryptowatch.com/
 https://finviz.com/map.ashx?t=sec
@@ -22,3 +22,10 @@ https://iborrowdesk.com/
 https://short.com/
 http://finance.yahoo.com/
 http://lowfloat.com/
+https://tradeblock.com/bitcoin
+https://trade.dydx.exchange/
+https://koyfin.com
+https://app.darqube.com/overview
+https://www.gate.io/en/
+https://www.bitmart.com/markets/en
+https://kucoin.com
