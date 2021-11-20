@@ -32,7 +32,7 @@ https://kucoin.com
 https://bitinfocharts.com
 https://coinmarketcap.com
 https://kraken.com
-https://solanabeahc.io
+https://solanabeach.io
 https://mempool.space
 https://studio.glassnode.com/
 https://lunarcrush.com/
@@ -58,3 +58,16 @@ https://solsea.io/
 https://fmovies.town
 https://etherscan.io
 https://bscscan.com
+https://tokensniffer.com
+https://polygonscan.com
+https://withdrawalfees.com
+https://cardanoscan.io
+https://twitter.com
+https://tweetdeck.twitter.com
+https://pool.pm/addr1qxdvn2fk7nydfm2e25l5a2un3rlpplxvq2ps9w853kv2aqzeqe3dq833rvzz92d7mkqscdl4fhpxulmttumxp9u47j8sulsg73
+https://coinglass.com
+https://wallet.avax.network/wallet
+https://app.wonderland.money/#/stake
+https://app.pangolin.exchange/#/swap
+https://traderjoexyz.com/#/home
+https://debank.com/profile/0xbcf8407880978e86bdcd53c04796713f24e6ee3c
