@@ -20,7 +20,8 @@ quit")
 #     "$color15" -sb "$color3" -sf "$color0" -nhb "$color3" -nhf "$color0" -shb "$color3" -shf "$color15" -h 25 -l 12 -g 1 -p 'Edit config > ')
 
 
-choice=$(echo -e "${options[0]}" | rofi -dmenu -font "Hack Nerd Font 22" -location 1 -width 15 -lines 100 -p "EDIT CONFIGS")
+choice=$(echo -e "${options[0]}" | rofi -dmenu \
+    -font "Hack Nerd Font 22" -location 1 -width 15 -lines 100 -p "EDIT CONFIGS")
 case "$choice" in 
     quit)
         echo "Progam terminated." && exit 1
